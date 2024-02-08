@@ -1,10 +1,10 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
 }
-body {
-  background-repeat: no-repeat;
-  background-size: cover;
+body{
+    background-color: #1AFFAF;
 }
 li {
   list-style: none;
@@ -17,7 +17,7 @@ li > a {
 .web {
   width: 3rem;
   position: absolute;
-  top: 8rem;
+  top: 30%;
   left: 2rem;
 }
 .web > ul {
@@ -33,13 +33,14 @@ li > a {
 }
 .web-item {
   background: hsla(339, 100%, 55%, 1) 0%;
-  border-radius: 10%;
+  border-radius: 3rem;
   transition: 1s ease-in-out;
+  cursor: pointer;
 }
-.web-item:hover{
-   background: linear-gradient(
+.web-item:hover {
+  background: linear-gradient(
     90deg,
     hsla(339, 100%, 55%, 1) 0%,
     hsla(197, 100%, 64%, 1) 100%
-  ); 
+  );
 }
