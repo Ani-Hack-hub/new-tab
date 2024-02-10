@@ -51,7 +51,7 @@ li > a {
   );
 }
 
-.square{
+.square {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +61,7 @@ li > a {
   text-align: center;
   border-radius: 100%;
 }
-.add-bmk{
+.add-bmk {
   color: white;
   font-size: 2rem;
 }
